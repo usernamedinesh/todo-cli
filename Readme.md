@@ -38,42 +38,52 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 ```
 
-🛠️ Run the Project
+### 2. Run the Project
 
-
+```
 cargo run -- [COMMAND] [ARGS]
+```
 
-⚙️ Usage
+### 3. Usage
 
 ➕ Add a Task
 
+```
 cargo run -- add "Buy milk"
+```
 
 ✅ Mark a Task as Done
 
+```
 cargo run -- mark-done "Buy milk"
+```
 
 📋 View All Tasks
 
+```
 cargo run -- list
+```
 
 Output format:
 
-# TO DO
+#TO DO
 
  * Write unit tests
  * Read a Rust book
 
-# DONE
+#DONE
 
  * Buy milk
 
 🧪 Run Tests
 
+```
 cargo run -- clear 
+```
+
 --removing all todo
 
-cargo test
+🧪 Remove all Todos
 
 ##### Technologies Used
 
