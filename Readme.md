@@ -78,19 +78,21 @@ Output format:
 🧪 Run Tests
 
 ```
-cargo run -- clear 
+cargo test 
 ```
-
---removing all todo
 
 🧪 Remove all Todos
 
+```
+cargo clear
+```
+
 ##### Technologies Used
 
-    Rust — Safe and fast systems programming language.
+Rust — Safe and fast systems programming language.
 
-    clap — Powerful command-line argument parser.
+clap — Powerful command-line argument parser.
 
-    serde — Serialization and deserialization framework.
+serde — Serialization and deserialization framework.
 
-    serde_json — JSON support for Rust.
+serde_json — JSON support for Rust.
