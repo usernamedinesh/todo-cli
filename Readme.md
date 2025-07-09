@@ -29,27 +29,30 @@ Make sure you're using the latest version of Rust. Then run:
 cargo add clap --features derive
 cargo add serde --features derive
 cargo add serde_json
-```
-##### Alternatively, manually add to your Cargo.toml:
 
+##### Alternatively, manually add to your Cargo.toml:
 ```
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 ```
+
 🛠️ Run the Project
 
 
 cargo run -- [COMMAND] [ARGS]
 
 ⚙️ Usage
+
 ➕ Add a Task
 
 cargo run -- add "Buy milk"
+
 ✅ Mark a Task as Done
 
 cargo run -- mark-done "Buy milk"
+
 📋 View All Tasks
 
 cargo run -- list
@@ -72,7 +75,7 @@ cargo run -- clear
 
 cargo test
 
-🔍 Technologies Used
+##### Technologies Used
 
     Rust — Safe and fast systems programming language.
 
